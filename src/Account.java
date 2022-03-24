@@ -55,6 +55,7 @@ public class Account {
 	private void initialize() {
 		Connect connect = new Connect();
 		connect.connect();
+		System.out.println("Hello World");
 		frame = new JFrame();
 		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\DOWNLOAD\\coffee-icon (1).png"));
 		frame.setBounds(100, 100, 539, 380);
